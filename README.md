@@ -1,7 +1,7 @@
 # API MOVIES
 
 > Status: em desenvolviment
-> [Site](https://the-movie-7.netlify.app/)
+
 
 ## Sobre
 Alguns meses atrás eu desenvolvi um projeto de consumo da API de filmes TMDB. Esse foi um projeto que tinha sido proposto pelo professor da minha faculdade. Esse projeto tinha tanto o design como as funcionalidades predefinidas. Então fiz tudo conforme o proposto no projeto. Só que gostei tanto desse projeto que decidir fazer uma versão mais atualizada desse projeto com um design novo e algumas funcionalidades extras.
