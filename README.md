@@ -3,8 +3,7 @@
 > Status: em desenvolvimento
 
 ## Sobre
-Alguns meses atrás eu desenvolvi um projeto de consumo da API de filmes TMDB. Esse foi um projeto que tinha sido proposto pelo professor da minha faculdade. Entretanto, esse projeto tinha tanto o design como as funcionalidades predefinidas. E eu como um bom desenvolvedor que quero me tornar não sair burlando as regras do projeto. Fiz tudo conforme o projeto, mas após o projeto ser finalizado resolvi que criaria a minha própria versão do projeto de consumo dessa API. Com funcionalidades novas e design novo.
-
+Alguns meses atrás eu desenvolvi um projeto de consumo da API de filmes TMDB. Esse foi um projeto que tinha sido proposto pelo professor da minha faculdade. Esse projeto tinha tanto o design como as funcionalidades predefinidas. Então fiz tudo conforme o proposto no projeto. Só que gostei tanto desse projeto que decidir fazer uma versão mais atualizada desse projeto com um design novo e algumas funcionalidades extras.
 
 <div style="width:100vw;display:flex;justify-content:center; gap:10px;flex-wrap:wrap;">
   
