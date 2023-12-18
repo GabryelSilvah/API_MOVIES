@@ -1,12 +1,18 @@
 import { apiKey } from './key.js'
-let base_url = "https://api.themoviedb.org/3/movie"
-let uri_1 = base_url + "/top_rated?"
-let uri_2 = base_url + "/popular?"
+let base_url = "https://api.themoviedb.org/3/"
+let uri_1 = base_url + "movie/top_rated?"
+let uri_2 = base_url + "movie/popular?"
+let pesquisa = base_url + "search/movie?query=Jack+Reacher&"
+let search = "movie/popular?"
+let query = null
+let buttom = document.querySelector('.lupa')
+
 
 //Conectando com a API
-async function getApi() {
+async function getApi(search, query) {
+
     try {
-        const response = await fetch(`${uri_2}api_key=${apiKey}&language=pt-BR`)
+        const response = await fetch(`https://api.themoviedb.org/3/${search}/movie?query=${query}&api_key=${apiKey}&language=pt-BR`)
         const dados = await response.json()
         return dados
     }
@@ -16,9 +22,11 @@ async function getApi() {
 }
 
 //Recebendo dados da API
-const dados = await getApi()
+let dados = await getApi(search, query)
 
-//Criando toda a estrutura html para receber os dados
+
+
+
 criaEstruturaHtml(dados)
 
 //local de variáveis
@@ -28,15 +36,14 @@ let img = document.querySelectorAll('.imgFav')
 let check = document.querySelector('.check')
 
 
-pesquisaFilme(input_pesquisa, listaPes)
 
 getFilmeClicado(img)
 
 eventoCheck(check)
 
+buscarFilme(buttom)
 
 //Funções
-
 //Cria a estrutura html
 function criaEstruturaHtml(dados) {
     dados.results.forEach((valor) => {
@@ -176,27 +183,6 @@ function manipularStore(chave, propriedade, valorPropriedade) {
     })
 }
 
-//pesquisar pelo filme
-function pesquisaFilme(pesquisa, lista) {
-    pesquisa.addEventListener("input", (a) => {
-
-        //transforma texto digitado em letras minusculas
-        let pesquisa = a.target.value.toLowerCase()
-
-        lista.forEach((titulo) => {
-            //transforma texto contido da div em letras minusculas
-            let text = titulo.getAttribute('name').toLowerCase()
-
-            //verificar se o filme está incluso na lista
-            if (text.includes(pesquisa)) {
-                titulo.style.display = "flex"
-            } else {
-                titulo.style.display = "none"
-            }
-        })
-    })
-}
-
 //Pegar favorito selecionado
 function getFilmeClicado(click) {
 
@@ -239,4 +225,19 @@ function eventoCheck(check) {
     })
 }
 
+//Busca por fillmes
+function buscarFilme(buttom) {
+    buttom.addEventListener("click", async () => {
+        let inputFilme = document.querySelector('.input_pesquisa')
+
+        const divLista = document.getElementById('lista')
+        divLista.innerHTML = ""
+
+        let filmesEncontrados = await getApi("search", inputFilme.value)
+
+        criaEstruturaHtml(filmesEncontrados)
+
+    })
+
+}
 
