@@ -1,0 +1,61 @@
+a, li{
+    text-decoration: none;
+    color: #fff;
+}
+.series, .filmes {
+    position: relative;
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subListaSerie, .subListaFilmes {
+    position: absolute;
+    top: 40px;
+    display: none;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 150px;
+    gap: 10px;
+    background-color: #00a8db;
+    z-index: 999;
+
+}
+
+.none {
+    display: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.menu {
+    width: 100vw;
+    height: 40px;
+    background: -webkit-linear-gradient(120deg, rgb(0, 156, 184), rgb(0, 163, 184));
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.menu li {
+    list-style-type: none;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+#imgBanner {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+}

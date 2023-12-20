@@ -1,0 +1,24 @@
+.logos{
+    height: 200px;
+    width: 100vw;
+    padding: 20px;
+    background-color: #0d253f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#titulo{
+    color: #fff;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.principal{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logoTMDB{
+    width: 80px;
+}
