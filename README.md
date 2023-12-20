@@ -8,11 +8,10 @@ Alguns meses atrás eu desenvolvi um projeto de consumo da API de filmes TMDB. E
 
 <div style="width:100vw;display:flex;justify-content:center; gap:10px;flex-wrap:wrap;">
   
-<img style="width:300px;"  src="https://github.com/GabryelSilvah/7DaysOfCode/assets/139282381/254c78d6-3340-47c3-ad81-76c2a1fa5305">
+<img style="width:300px;"  src="https://github.com/GabryelSilvah/API_MOVIES/assets/139282381/aa47cd57-4530-43e6-a593-5cdc3af485d1">
+  <img style="width:300px" src="https://github.com/GabryelSilvah/API_MOVIES/assets/139282381/e6853b71-20d5-4d70-a1cb-0a8245727f09">
 
-  <img style="width:300px" src="https://github.com/GabryelSilvah/7DaysOfCode/assets/139282381/9ae489e0-14d7-4fe3-a25d-69b2498189d0">
-  
-  <img style="width:300px" src="https://github.com/GabryelSilvah/7DaysOfCode/assets/139282381/bb294b52-98bb-465a-9441-f38dc16e43c2">
+  <img style="width:300px" src="https://github.com/GabryelSilvah/API_MOVIES/assets/139282381/a02b45f4-7659-4c81-8d35-5b8e46475778">
 
  <img style="width:300px" src="https://github.com/GabryelSilvah/Trabalho_Facul_Formulario/assets/139282381/bb6400d0-114a-419b-9cad-b1d036b55431">
 </div>
