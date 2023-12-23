@@ -13,7 +13,9 @@ Alguns meses atrás eu desenvolvi um projeto de consumo da API de filmes TMDB. E
 
   <img style="width:300px" src="https://github.com/GabryelSilvah/API_MOVIES/assets/139282381/a02b45f4-7659-4c81-8d35-5b8e46475778">
 
- <img style="width:300px" src="https://github.com/GabryelSilvah/API_MOVIES/assets/139282381/ae2a8ba8-bb34-4395-96b2-85ba054ab249">
+ <img style="width:300px" src="https://github.com/GabryelSilvah/API_MOVIES/assets/139282381/0ec64a21-6331-4a12-8b20-405fb70e4748">
+
+ <img style="width:300px" src="https://github.com/GabryelSilvah/API_MOVIES/assets/139282381/fbaa3d88-c847-461c-be67-522d699b1232">
 </div>
 
 ## Tecnologias usadas
