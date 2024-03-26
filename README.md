@@ -1,6 +1,6 @@
 # API MOVIES
 
-> Status: em desenvolviment
+> Status: em desenvolvimento
 
 
 ## Sobre
